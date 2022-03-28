@@ -1,0 +1,437 @@
+* *,
+::before,
+::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+.entete {
+  color: #ffffffbf;
+  font-family: IBM Plex Mono, monospace;
+  text-align: center;
+  background-color: #2ba2ff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='100%25'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='0' x2='0' y1='0' y2='100%25' gradientTransform='rotate(240)'%3E%3Cstop offset='0' stop-color='%232BA2FF'/%3E%3Cstop offset='1' stop-color='%234FE'/%3E%3C/linearGradient%3E%3Cpattern patternUnits='userSpaceOnUse' id='b' width='540' height='450' x='0' y='0' viewBox='0 0 1080 900'%3E%3Cg fill-opacity='0.1'%3E%3Cpolygon fill='%23444' points='90 150 0 300 180 300'/%3E%3Cpolygon points='90 150 180 0 0 0'/%3E%3Cpolygon fill='%23AAA' points='270 150 360 0 180 0'/%3E%3Cpolygon fill='%23DDD' points='450 150 360 300 540 300'/%3E%3Cpolygon fill='%23999' points='450 150 540 0 360 0'/%3E%3Cpolygon points='630 150 540 300 720 300'/%3E%3Cpolygon fill='%23DDD' points='630 150 720 0 540 0'/%3E%3Cpolygon fill='%23444' points='810 150 720 300 900 300'/%3E%3Cpolygon fill='%23FFF' points='810 150 900 0 720 0'/%3E%3Cpolygon fill='%23DDD' points='990 150 900 300 1080 300'/%3E%3Cpolygon fill='%23444' points='990 150 1080 0 900 0'/%3E%3Cpolygon fill='%23DDD' points='90 450 0 600 180 600'/%3E%3Cpolygon points='90 450 180 300 0 300'/%3E%3Cpolygon fill='%23666' points='270 450 180 600 360 600'/%3E%3Cpolygon fill='%23AAA' points='270 450 360 300 180 300'/%3E%3Cpolygon fill='%23DDD' points='450 450 360 600 540 600'/%3E%3Cpolygon fill='%23999' points='450 450 540 300 360 300'/%3E%3Cpolygon fill='%23999' points='630 450 540 600 720 600'/%3E%3Cpolygon fill='%23FFF' points='630 450 720 300 540 300'/%3E%3Cpolygon points='810 450 720 600 900 600'/%3E%3Cpolygon fill='%23DDD' points='810 450 900 300 720 300'/%3E%3Cpolygon fill='%23AAA' points='990 450 900 600 1080 600'/%3E%3Cpolygon fill='%23444' points='990 450 1080 300 900 300'/%3E%3Cpolygon fill='%23222' points='90 750 0 900 180 900'/%3E%3Cpolygon points='270 750 180 900 360 900'/%3E%3Cpolygon fill='%23DDD' points='270 750 360 600 180 600'/%3E%3Cpolygon points='450 750 540 600 360 600'/%3E%3Cpolygon points='630 750 540 900 720 900'/%3E%3Cpolygon fill='%23444' points='630 750 720 600 540 600'/%3E%3Cpolygon fill='%23AAA' points='810 750 720 900 900 900'/%3E%3Cpolygon fill='%23666' points='810 750 900 600 720 600'/%3E%3Cpolygon fill='%23999' points='990 750 900 900 1080 900'/%3E%3Cpolygon fill='%23999' points='180 0 90 150 270 150'/%3E%3Cpolygon fill='%23444' points='360 0 270 150 450 150'/%3E%3Cpolygon fill='%23FFF' points='540 0 450 150 630 150'/%3E%3Cpolygon points='900 0 810 150 990 150'/%3E%3Cpolygon fill='%23222' points='0 300 -90 450 90 450'/%3E%3Cpolygon fill='%23FFF' points='0 300 90 150 -90 150'/%3E%3Cpolygon fill='%23FFF' points='180 300 90 450 270 450'/%3E%3Cpolygon fill='%23666' points='180 300 270 150 90 150'/%3E%3Cpolygon fill='%23222' points='360 300 270 450 450 450'/%3E%3Cpolygon fill='%23FFF' points='360 300 450 150 270 150'/%3E%3Cpolygon fill='%23444' points='540 300 450 450 630 450'/%3E%3Cpolygon fill='%23222' points='540 300 630 150 450 150'/%3E%3Cpolygon fill='%23AAA' points='720 300 630 450 810 450'/%3E%3Cpolygon fill='%23666' points='720 300 810 150 630 150'/%3E%3Cpolygon fill='%23FFF' points='900 300 810 450 990 450'/%3E%3Cpolygon fill='%23999' points='900 300 990 150 810 150'/%3E%3Cpolygon points='0 600 -90 750 90 750'/%3E%3Cpolygon fill='%23666' points='0 600 90 450 -90 450'/%3E%3Cpolygon fill='%23AAA' points='180 600 90 750 270 750'/%3E%3Cpolygon fill='%23444' points='180 600 270 450 90 450'/%3E%3Cpolygon fill='%23444' points='360 600 270 750 450 750'/%3E%3Cpolygon fill='%23999' points='360 600 450 450 270 450'/%3E%3Cpolygon fill='%23666' points='540 600 630 450 450 450'/%3E%3Cpolygon fill='%23222' points='720 600 630 750 810 750'/%3E%3Cpolygon fill='%23FFF' points='900 600 810 750 990 750'/%3E%3Cpolygon fill='%23222' points='900 600 990 450 810 450'/%3E%3Cpolygon fill='%23DDD' points='0 900 90 750 -90 750'/%3E%3Cpolygon fill='%23444' points='180 900 270 750 90 750'/%3E%3Cpolygon fill='%23FFF' points='360 900 450 750 270 750'/%3E%3Cpolygon fill='%23AAA' points='540 900 630 750 450 750'/%3E%3Cpolygon fill='%23FFF' points='720 900 810 750 630 750'/%3E%3Cpolygon fill='%23222' points='900 900 990 750 810 750'/%3E%3Cpolygon fill='%23222' points='1080 300 990 450 1170 450'/%3E%3Cpolygon fill='%23FFF' points='1080 300 1170 150 990 150'/%3E%3Cpolygon points='1080 600 990 750 1170 750'/%3E%3Cpolygon fill='%23666' points='1080 600 1170 450 990 450'/%3E%3Cpolygon fill='%23DDD' points='1080 900 1170 750 990 750'/%3E%3C/g%3E%3C/pattern%3E%3C/defs%3E%3Crect x='0' y='0' fill='url(%23a)' width='100%25' height='100%25'/%3E%3Crect x='0' y='0' fill='url(%23b)' width='100%25' height='100%25'/%3E%3C/svg%3E");
+  background-attachment: fixed;
+  background-size: cover;
+  padding: 0px;
+  text-align: center;
+  padding-bottom: 100px;
+}
+
+h1 {
+  font-size: 50px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  display: inline-block;
+  margin-top: 50px;
+  position: relative;
+  padding-bottom: 50px;
+  color: red;
+  transform: translateX(-600px);
+  animation: ZoomIn ease-in-out forwards 1s;
+  z-index: 10;
+  opacity: 0;
+  position: relative;
+  text-shadow: 3px 2px 2px black;
+}
+
+@keyframes slideIn {
+  100% {
+    transform: translateX(0px);
+    opacity: 1;
+  }
+}
+
+@keyframes ZoomIn {
+  0% {
+    transform: scale(0.2);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.photoContainer {
+  width: 500px;
+  height: 500px;
+  border-radius: 100%;
+  margin: 10px auto;
+  overflow: hidden;
+  Box-shadow: 10px 5px 5px rgb(77, 77, 77);
+}
+
+.photoContainer img {
+  width: 100%;
+  height: 100%;
+}
+
+.img {
+  object-fit: cover;
+}
+
+.texte-animation {
+  padding-top: 11px;
+  min-height: 150px;
+}
+
+.VideoContainer {
+  margin-top: 100px;
+}
+
+h2 {
+  color: white;
+  font-size: 50px;
+  font-family: "Courier New", Courier, monospace;
+}
+
+h3 {
+  color: white;
+  font-size: 50px;
+  text-align: center;
+  padding-top: 100px;
+  color: #ff733d;
+}
+
+.competences h3 {
+  transform: translateX(-600px);
+}
+
+.competences h3.active {
+  transform: translateX(-600px);
+  animation: slideIn ease-in-out forwards 1s;
+}
+
+.competencesGraphisme h3 {
+  transform: translateX(-600px);
+}
+
+.competencesGraphisme h3.active {
+  transform: translateX(-600px);
+  animation: slideIn ease-in-out forwards 1s;
+}
+
+.PresentationContainer h3 {
+  transform: scale(0.2);
+}
+
+.PresentationContainer h3.active {
+  animation: ZoomIn ease-in-out forwards 1s;
+}
+
+.PourquoiBTS h3 {
+  transform: scale(0.2);
+}
+
+.PourquoiBUT h3 {
+  transform: scale(0.2);
+}
+
+.PourquoiBTS h3.active {
+  animation: ZoomIn ease-in-out forwards 1s;
+}
+
+.PourquoiBUT h3.active {
+  animation: ZoomIn ease-in-out forwards 1s;
+}
+
+.ExperiencePro h3.active {
+  animation: ZoomIn ease-in-out forwards 1s;
+}
+
+.ExperiencePro h3.active {
+  animation: ZoomIn ease-in-out forwards 1s;
+}
+
+.AutresPassions h3.active {
+  animation: ZoomIn ease-in-out forwards 1s;
+}
+
+.AutresPassions h3.active {
+  animation: ZoomIn ease-in-out forwards 1s;
+}
+
+.ContainerBoxContainer2 h3 {
+  color: #1f87ff;
+}
+
+.ContainerBoxContainer1 {
+  background-color: #14b8ff;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='109' height='109' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23009ce0' fill-opacity='0.55'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.55'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+  height: auto;
+}
+
+.ContainerBoxContainer2 {
+  background-color: #ff733d;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='109' height='109' viewBox='0 0 200 200'%3E%3Cdefs%3E%3ClinearGradient id='a' gradientUnits='userSpaceOnUse' x1='100' y1='33' x2='100' y2='-3'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3ClinearGradient id='b' gradientUnits='userSpaceOnUse' x1='100' y1='135' x2='100' y2='97'%3E%3Cstop offset='0' stop-color='%23000' stop-opacity='0'/%3E%3Cstop offset='1' stop-color='%23000' stop-opacity='1'/%3E%3C/linearGradient%3E%3C/defs%3E%3Cg fill='%23e05925' fill-opacity='0.55'%3E%3Crect x='100' width='100' height='100'/%3E%3Crect y='100' width='100' height='100'/%3E%3C/g%3E%3Cg fill-opacity='0.55'%3E%3Cpolygon fill='url(%23a)' points='100 30 0 0 200 0'/%3E%3Cpolygon fill='url(%23b)' points='100 100 0 130 0 100 200 100 200 130'/%3E%3C/g%3E%3C/svg%3E");
+  height: auto;
+}
+
+.boxContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 100px;
+}
+
+.boxhtmlCSS,
+.boxPython,
+.boxjs,
+.boxphp,
+.boxLinux,
+.boxCISCO,
+.boxTCPIP,
+.boxBDD {
+  background-color: white;
+  border-radius: 10%;
+  padding: 3em;
+  position: relative;
+  width: 20%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+  margin-left: 50px;
+}
+
+svg {
+  height: 150px;
+  width: 150px;
+}
+
+svg circle {
+  fill: none;
+  stroke: #1f87ff;
+  stroke-width: 10px;
+  transform: translate(5px, 5px);
+  stroke-linecap: round;
+  stroke-dasharray: 440;
+  stroke-dashoffset: 440;
+}
+
+svg circle:nth-child(1) {
+  stroke: #ff733d;
+  stroke-dashoffset: 0;
+}
+
+/* avancement compétences dev */
+
+.boxhtmlCSS svg circle:nth-child(2).active {
+  animation: circle60 2s forwards;
+}
+
+.boxPython svg circle:nth-child(2).active {
+  animation: circle30 2s forwards;
+}
+
+.boxjs svg circle:nth-child(2).active {
+  animation: circle50 2s forwards;
+}
+
+.boxphp svg circle:nth-child(2).active {
+  animation: circle30 2s forwards;
+}
+
+/* avancement compétences graphismes */
+
+.boxLinux svg circle:nth-child(2).active {
+  animation: circle60 2s forwards;
+}
+
+.boxCISCO svg circle:nth-child(2).active {
+  animation: circle30 2s forwards;
+}
+
+.boxTCPIP svg circle:nth-child(2).active {
+  animation: circle50 2s forwards;
+}
+
+.boxBDD svg circle:nth-child(2).active {
+  animation: circle10 2s forwards;
+}
+
+/* animations d'avancement */
+
+@keyframes circle75 {
+  to {
+    stroke-dashoffset: 120;
+  }
+}
+
+@keyframes circle70 {
+  to {
+    stroke-dashoffset: 100;
+  }
+}
+
+@keyframes circle60 {
+  to {
+    stroke-dashoffset: 176;
+  }
+}
+
+@keyframes circle50 {
+  to {
+    stroke-dashoffset: 220;
+  }
+}
+
+@keyframes circle30 {
+  to {
+    stroke-dashoffset: 308;
+  }
+}
+
+@keyframes circle10 {
+  to {
+    stroke-dashoffset: 396;
+  }
+}
+
+h4 {
+  position: absolute;
+  top: 35%;
+  left: auto;
+  color: #1f87ff;
+  font-size: 2em;
+  font-weight: 400;
+}
+
+h5 {
+  color: burlywood;
+  margin-top: 10px;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgb(77, 77, 77);
+}
+
+
+h6 {
+  color: burlywood;
+  margin-bottom: 20px;
+  font-size: 40px;
+  text-align: center;
+  text-shadow: 1px 1px 1px rgb(77, 77, 77);
+}
+
+
+h7 {
+  color: white;
+  font-size: 40px;
+  text-align: center;
+  padding: 10px;
+  color: #1f87ff;
+  margin-top: 5px;
+}
+
+.boxPython {
+  background-color: white;
+  border-radius: 10%;
+  padding: 3em;
+  position: relative;
+  width: 20%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.boxjs {
+  background-color: white;
+  border-radius: 10%;
+  padding: 3em;
+  position: relative;
+  width: 20%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.boxphp {
+  background-color: white;
+  border-radius: 10%;
+  padding: 3em;
+  position: relative;
+  width: 20%;
+  flex-direction: column;
+  display: flex;
+  align-items: center;
+}
+
+.PresentationContainer {
+  background-image: repeating-linear-gradient(
+      333deg,
+      hsla(119, 47%, 93%, 0.05) 0px,
+      hsla(119, 47%, 93%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(119, 47%, 93%, 0.05) 11px,
+      hsla(119, 47%, 93%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      45deg,
+      hsla(119, 47%, 93%, 0.05) 0px,
+      hsla(119, 47%, 93%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(119, 47%, 93%, 0.05) 11px,
+      hsla(119, 47%, 93%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      135deg,
+      hsla(119, 47%, 93%, 0.05) 0px,
+      hsla(119, 47%, 93%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(119, 47%, 93%, 0.05) 11px,
+      hsla(119, 47%, 93%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      0deg,
+      hsla(119, 47%, 93%, 0.05) 0px,
+      hsla(119, 47%, 93%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(119, 47%, 93%, 0.05) 11px,
+      hsla(119, 47%, 93%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    repeating-linear-gradient(
+      90deg,
+      hsla(119, 47%, 93%, 0.05) 0px,
+      hsla(119, 47%, 93%, 0.05) 1px,
+      transparent 1px,
+      transparent 11px,
+      hsla(119, 47%, 93%, 0.05) 11px,
+      hsla(119, 47%, 93%, 0.05) 12px,
+      transparent 12px,
+      transparent 32px
+    ),
+    linear-gradient(90deg, rgb(248, 130, 73), rgb(63, 178, 202));
+
+  padding: 100px;
+  text-align: center;
+}
+
+p {
+  font-size: 25px;
+  color: white;
+  text-align: left;
+  margin-left: 200px;
+}
+
+.PresentationContainer h3 {
+  color: black;
+  padding: 50px;
+}
+
+.boxContainerLinuxCisco h4,
+.BoxContainerPhIl h4 {
+  margin-top: -15px;
+}

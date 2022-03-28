@@ -1,0 +1,262 @@
+@media (min-width: 1600px) {
+  .boxhtmlCSS,
+  .boxPython,
+  .boxjs,
+  .boxphp,
+  .boxLinux,
+  .boxCISCO,
+  .boxTCPIP,
+  .boxBDD {
+    border-radius: 10%;
+    padding: 3em;
+    position: relative;
+    width: 300px;
+    margin-top: 50px;
+  }
+
+  .boxContainer {
+    display: flex;
+    justify-content: center;
+  }
+
+  .boxContainerHtmlCssJS,
+  .boxContainerJsPhp,
+  .boxContainerLinuxCisco,
+  .BoxContainerPhIl {
+    display: flex;
+    flex-direction: row;
+  }
+
+  p{
+    margin-left: 100px;
+  }
+}
+
+@media (max-width: 1600px) {
+  .boxhtmlCSS,
+  .boxPython,
+  .boxjs,
+  .boxphp,
+  .boxLinux,
+  .boxCISCO,
+  .boxTCPIP,
+  .boxBDD {
+    border-radius: 10%;
+    padding: 3em;
+    position: relative;
+    width: 350px;
+    margin-top: 50px;
+  }
+
+  .boxContainer {
+    display: flex;
+    flex-direction: column;
+    margin-top: 50px;
+    padding: 100px;
+    justify-content: center;
+  }
+
+  .boxContainerHtmlCssJS,
+  .boxContainerJsPhp,
+  .boxContainerLinuxCisco,
+  .BoxContainerPhIl {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .boxContainerLinuxCisco h4,
+  .BoxContainerPhIl h4 {
+    margin-top: 0px;
+  }
+
+  p{
+    margin-left: 0px;
+  }
+}
+
+@media (max-width: 900px) {
+  .boxContainerHtmlCssJS,
+  .boxContainerJsPhp,
+  .boxContainerLinuxCisco,
+  .BoxContainerPhIl {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+}
+
+@media (max-width: 640px) {
+  h1 {
+    font-size: 35px;
+  }
+
+  h2 {
+    font-size: 30px;
+  }
+
+  h3 {
+    font-size: 40px;
+  }
+
+  p {
+    font-size: 20px;
+    margin-right: none;
+  }
+
+  .PresentationContainer {
+    padding: 10px;
+    text-align: left;
+  }
+
+  .photoContainer {
+    width: 300px;
+    height: 300px;
+    border-radius: 100%;
+    margin: 10px auto;
+    overflow: hidden;
+  }
+
+  iframe {
+    width: 400px;
+    height: 225px;
+  }
+
+  .boxhtmlCSS,
+  .boxPython,
+  .boxjs,
+  .boxphp,
+  .boxLinux,
+  .boxCISCO,
+  .boxTCPIP,
+  .boxBDD {
+    background-color: white;
+    border-radius: 10%;
+    position: relative;
+    width: 250px;
+    flex-direction: column;
+    display: flex;
+    align-items: center;
+  }
+
+  .boxContainerLinuxCisco h4,
+  .BoxContainerPhIl h4 {
+    margin-top: -15px;
+  }
+}
+
+@media (max-width: 520px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+
+  .photoContainer {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 10px auto;
+    overflow: hidden;
+  }
+
+  .boxhtmlCSS,
+  .boxPython,
+  .boxjs,
+  .boxphp,
+  .boxLinux,
+  .boxCISCO,
+  .boxTCPIP,
+  .boxBDD {
+    background-color: white;
+    border-radius: 10%;
+    position: relative;
+    width: 150px;
+    flex-direction: column;
+    display: flex;
+    align-items: left;
+    margin-left: -20px;
+  }
+
+  iframe {
+    width: 300px;
+    height: 170px;
+  }
+
+  .boxContainerLinuxCisco h4,
+  .BoxContainerPhIl h4 {
+    margin-top: 0px;
+  }
+
+  .boxContainerJsPhp h4,
+  .boxContainerHtmlCssJS h4 {
+    margin-top: 10px;
+  }
+}
+
+@media (max-width: 300px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  h2 {
+    font-size: 20px;
+  }
+
+  h3 {
+    font-size: 25px;
+  }
+
+  p {
+    font-size: 20px;
+  }
+
+  h5 {
+    font-size: 25px;
+  }
+
+  .photoContainer {
+    width: 200px;
+    height: 200px;
+    border-radius: 100%;
+    margin: 10px auto;
+    overflow: hidden;
+  }
+
+  .boxhtmlCSS,
+  .boxPython,
+  .boxjs,
+  .boxphp,
+  .boxLinux,
+  .boxCISCO,
+  .boxTCPIP,
+  .boxBDD {
+    background-color: white;
+    border-radius: 10%;
+    position: relative;
+    width: 150px;
+    flex-direction: column;
+    display: flex;
+    align-items: left;
+    margin-left: -40px;
+  }
+
+  iframe {
+    width: 250px;
+    height: 140px;
+  }
+}
